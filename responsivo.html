@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rensponsivo</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            /*Ao inves de utilizar um width puro, utilize uma versão mais responsiva, que vai indentificar o tamanho minimo e o tamanho maximo*/
+            min-width: 265px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quod vero totam modi quis et sequi exercitationem, nihil tenetur dolore excepturi at ex, rem blanditiis suscipit harum iste unde vel. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi eveniet voluptatibus illum suscipit labore ipsam reiciendis eos a libero natus pariatur earum voluptates dolore distinctio, nemo voluptate architecto, cupiditate quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio tempore aspernatur aliquid explicabo dolore iure accusamus quo esse vitae, facere tempora repellat labore et rem recusandae commodi nemo dolorum fugit!</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg" type="image/jpeg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Block">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quod vero totam modi quis et sequi exercitationem, nihil tenetur dolore excepturi at ex, rem blanditiis suscipit harum iste unde vel. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi eveniet voluptatibus illum suscipit labore ipsam reiciendis eos a libero natus pariatur earum voluptates dolore distinctio, nemo voluptate architecto, cupiditate quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio tempore aspernatur aliquid explicabo dolore iure accusamus quo esse vitae, facere tempora repellat labore et rem recusandae commodi nemo dolorum fugit!</p>
+    </main>
+    
+</body>
+</html>
